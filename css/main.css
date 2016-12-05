@@ -39,8 +39,9 @@ h1 {
 
 li {
   list-style-type: none;
-  display: inline-block;
+  display: block;
   padding: 0 3rem;
+
 }
 
 a {
@@ -108,7 +109,6 @@ a {
 
 footer {
   border-top: 2px solid #333;
-
   margin: 2em 0;
 }
 
@@ -116,4 +116,8 @@ footer {
   font-size: .7rem;
   font-family: sans-serif;
   text-align: center;
+}
+
+.nav-list {
+  max-width: 100%;
 }
