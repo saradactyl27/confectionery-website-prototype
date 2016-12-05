@@ -154,5 +154,8 @@ a {
 .foot-title {
   font-size: 1.2rem;
   padding: 0;
-  font-weight: bold;
+}
+
+.menu {
+  padding: 0;
 }
