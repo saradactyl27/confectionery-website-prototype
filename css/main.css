@@ -142,6 +142,17 @@ a {
   padding: .2em;
 }
 
+.links-content {
+  padding: 0;
+}
+
 .foot-link {
   font-size: 1rem;
+  padding: 0;
+}
+
+.foot-title {
+  font-size: 1.2rem;
+  padding: 0;
+  font-weight: bold;
 }
