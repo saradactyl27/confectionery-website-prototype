@@ -1,0 +1,142 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Kaushan Script', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ddd3c3;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: 4rem;
+  color: #333
+}
+
+.navigation {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 3rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
+
+}
+
+.head-img {
+  height: 15em;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.shop {
+  padding: 2rem;
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.lil-ones {
+  height: 8em;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.shop-text {
+  display: none;
+}
+
+.shop-title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 5em;
+  background-color: #ddd3c3;
+  margin: 0;
+  padding: .2em;
+}
+
+
+.history {
+  padding: 2rem;
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.melted {
+  height: 8em;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.history-text {
+  display: none;
+}
+
+.history-title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 5em;
+  background-color: #ddd3c3;
+  margin: 0;
+  padding: .2em;
+}
+
+.process {
+  padding: 2rem;
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.beans {
+  height: 8em;
+  margin: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.process-text {
+  display: none;
+}
+
+.process-title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 5em;
+  background-color: #ddd3c3;
+  margin: 0;
+  padding: .2em;
+}
