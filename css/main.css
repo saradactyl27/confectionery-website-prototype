@@ -117,6 +117,7 @@ a {
   position: relative;
   padding: 0;
   margin-top: 2em;
+  max-height: 16em;
 }
 
 .beans {
@@ -139,4 +140,8 @@ a {
   background-color: #ddd3c3;
   margin: 0;
   padding: .2em;
+}
+
+.foot-link {
+  font-size: 1rem;
 }
