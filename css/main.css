@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "Kaushan Script", cursive;
 }
 
 *, *::before, *::after {
@@ -24,9 +24,9 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Kaushan Script';
+  font-family: "Kaushan Script";
   font-size: 4rem;
-  color: #333
+  color: #333;
 }
 
 .navigation {
@@ -35,6 +35,13 @@ h1 {
 
 .nav-list {
   padding: 0;
+  max-width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 nav a:hover {
@@ -46,12 +53,6 @@ li {
   display: block;
   padding: 0 3rem;
 
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-  font-size: 2rem;
 }
 
 .head-img {
@@ -118,11 +119,8 @@ a {
   text-align: center;
 }
 
-.nav-list {
-  max-width: 100%;
-}
-
 @media only screen and (min-width: 25em) {
+
   .process {
     max-width: 400px;
     display: inline-block;
@@ -135,6 +133,7 @@ a {
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -170,8 +169,9 @@ a {
   }
 
   .links-content {
-    width: 25em;
     display: block;
+    width: 100%;
+    padding-left: 10em;
   }
 
   .history {
@@ -198,17 +198,15 @@ a {
     padding: .2em;
   }
 
-  .links-content {
-    width: 100%;
-    padding-left: 10em;
-  }
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
   }
+
   .lil-ones {
     margin: 1em 0;
     max-width: 100%;
@@ -257,6 +255,7 @@ a {
 }
 
 @media only screen and (min-width: 90em) {
+
   html {
     font-size: 130%;
   }
