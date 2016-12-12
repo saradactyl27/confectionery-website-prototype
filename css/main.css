@@ -130,6 +130,11 @@ li {
     max-width: 400px;
     display: inline-block;
   }
+
+  li {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -146,12 +151,13 @@ li {
   }
 
   .lil-ones {
-    height: 10em;
-    overflow-y: hidden;
+    height: 100%;
   }
 
   .shop {
     max-height: 20em;
+    overflow-y: hidden;
+
   }
 
   .shop-title {
@@ -183,9 +189,12 @@ li {
     height: 30em;
   }
 
-  .nav-list {
-    display: inline;
-    max-width: 20rem;
+  nav a {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    white-space: nowrap;
   }
 
   .card-text {
@@ -251,6 +260,10 @@ li {
 
   .menu {
     display: inline-block;
+  }
+
+  li {
+
   }
 }
 
