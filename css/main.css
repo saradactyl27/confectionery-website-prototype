@@ -122,12 +122,10 @@ li {
 @media only screen and (min-width: 25em) {
 
   .process {
-    /*max-width: 400px;*/
     display: inline-block;
   }
 
   .history {
-    /*max-width: 400px;*/
     display: inline-block;
   }
 
@@ -179,6 +177,7 @@ li {
 
   .history {
     margin: 2rem 20%;
+    height: 30em;
   }
 
   .process {
@@ -189,7 +188,7 @@ li {
   nav a {
     display: block;
     float: left;
-    width: 50%;
+    width: 25%;
     text-align: center;
     white-space: nowrap;
   }
@@ -236,26 +235,22 @@ li {
     overflow: hidden;
   }
 
-  .process-text {
-    padding-bottom: 3em;
-  }
-
-  .process-title {
-    padding-bottom: 4em;
-  }
-
   .melted {
     height: 100%;
   }
 
   .beans {
-    height: 80%;
+    height: 100%;
   }
 
   footer {
     display: inline;
     width: 100%;
     margin: 2em;
+  }
+
+  .menu {
+    display: inline-block;
   }
 }
 
