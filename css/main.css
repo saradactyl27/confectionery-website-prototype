@@ -157,7 +157,6 @@ li {
   .shop {
     max-height: 20em;
     overflow-y: hidden;
-
   }
 
   .shop-title {
@@ -260,10 +259,6 @@ li {
 
   .menu {
     display: inline-block;
-  }
-
-  li {
-
   }
 }
 
